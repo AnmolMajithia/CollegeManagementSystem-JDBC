@@ -53,10 +53,3 @@ insert into courses values("IT",60);
 insert into courses values("EXTC",60);
 insert into courses values("Mech",120);
 insert into courses values("Civil",120);
-
-
-
-truncate table login; -->to empty table
-drop table tt; --> to delete table
-update courses set seats=59 where course="Comps";
-update login set pass="6548" where uid="001";
